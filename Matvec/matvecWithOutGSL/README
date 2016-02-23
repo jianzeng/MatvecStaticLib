@@ -1,0 +1,3 @@
+To compile matvec library:
+  cd to src and run "make"
+  
