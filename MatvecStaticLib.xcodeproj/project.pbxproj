@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EC8ACDA184FE0A100C697D6 /* alleletrim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC6D184FE0A100C697D6 /* alleletrim.cpp */; };
+		8EC8ACDB184FE0A100C697D6 /* bg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC6E184FE0A100C697D6 /* bg.cpp */; };
+		8EC8ACDC184FE0A100C697D6 /* bg.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC6F184FE0A100C697D6 /* bg.h */; };
+		8EC8ACDD184FE0A100C697D6 /* bgmatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC70184FE0A100C697D6 /* bgmatrix.cpp */; };
+		8EC8ACDE184FE0A100C697D6 /* bgmatrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC71184FE0A100C697D6 /* bgmatrix.h */; };
+		8EC8ACDF184FE0A100C697D6 /* BNodeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC72184FE0A100C697D6 /* BNodeList.cpp */; };
+		8EC8ACE0184FE0A100C697D6 /* BNodeList.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC73184FE0A100C697D6 /* BNodeList.h */; };
+		8EC8ACE1184FE0A100C697D6 /* chromosome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC74184FE0A100C697D6 /* chromosome.cpp */; };
+		8EC8ACE2184FE0A100C697D6 /* chromosome.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC75184FE0A100C697D6 /* chromosome.h */; };
+		8EC8ACE3184FE0A100C697D6 /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC76184FE0A100C697D6 /* data.cpp */; };
+		8EC8ACE4184FE0A100C697D6 /* data.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC77184FE0A100C697D6 /* data.h */; };
+		8EC8ACE5184FE0A100C697D6 /* datanode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC78184FE0A100C697D6 /* datanode.cpp */; };
+		8EC8ACE6184FE0A100C697D6 /* datanode.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC79184FE0A100C697D6 /* datanode.h */; };
+		8EC8ACE7184FE0A100C697D6 /* dblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC7A184FE0A100C697D6 /* dblock.cpp */; };
+		8EC8ACE8184FE0A100C697D6 /* dblock.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC7B184FE0A100C697D6 /* dblock.h */; };
+		8EC8ACE9184FE0A100C697D6 /* disequilHMM.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC7C184FE0A100C697D6 /* disequilHMM.h */; };
+		8EC8ACEA184FE0A100C697D6 /* doublematrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC7D184FE0A100C697D6 /* doublematrix.cpp */; };
+		8EC8ACEB184FE0A100C697D6 /* doublematrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC7E184FE0A100C697D6 /* doublematrix.h */; };
+		8EC8ACEC184FE0A100C697D6 /* exception.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC7F184FE0A100C697D6 /* exception.h */; };
+		8EC8ACED184FE0A100C697D6 /* field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC80184FE0A100C697D6 /* field.cpp */; };
+		8EC8ACEE184FE0A100C697D6 /* field.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC81184FE0A100C697D6 /* field.h */; };
+		8EC8ACEF184FE0A100C697D6 /* fieldstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC82184FE0A100C697D6 /* fieldstruct.cpp */; };
+		8EC8ACF0184FE0A100C697D6 /* fieldstruct.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC83184FE0A100C697D6 /* fieldstruct.h */; };
+		8EC8ACF1184FE0A100C697D6 /* fpmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC84184FE0A100C697D6 /* fpmm.cpp */; };
+		8EC8ACF2184FE0A100C697D6 /* fpmm.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC85184FE0A100C697D6 /* fpmm.h */; };
+		8EC8ACF3184FE0A100C697D6 /* geneticdist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC86184FE0A100C697D6 /* geneticdist.cpp */; };
+		8EC8ACF4184FE0A100C697D6 /* geneticdist.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC87184FE0A100C697D6 /* geneticdist.h */; };
+		8EC8ACF5184FE0A100C697D6 /* genome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC88184FE0A100C697D6 /* genome.cpp */; };
+		8EC8ACF6184FE0A100C697D6 /* genome.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC89184FE0A100C697D6 /* genome.h */; };
+		8EC8ACF7184FE0A100C697D6 /* ginverse1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC8A184FE0A100C697D6 /* ginverse1.cpp */; };
+		8EC8ACF8184FE0A100C697D6 /* glmm.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC8B184FE0A100C697D6 /* glmm.h */; };
+		8EC8ACF9184FE0A100C697D6 /* glmm1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC8C184FE0A100C697D6 /* glmm1.cpp */; };
+		8EC8ACFA184FE0A100C697D6 /* glmm2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC8D184FE0A100C697D6 /* glmm2.cpp */; };
+		8EC8ACFB184FE0A100C697D6 /* gnodederived.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC8E184FE0A100C697D6 /* gnodederived.cpp */; };
+		8EC8ACFC184FE0A100C697D6 /* gnodederived.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC8F184FE0A100C697D6 /* gnodederived.h */; };
+		8EC8ACFD184FE0A100C697D6 /* gnodesetderived.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC90184FE0A100C697D6 /* gnodesetderived.h */; };
+		8EC8ACFE184FE0A100C697D6 /* gnodestuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC91184FE0A100C697D6 /* gnodestuff.cpp */; };
+		8EC8ACFF184FE0A100C697D6 /* gnodestuff.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC92184FE0A100C697D6 /* gnodestuff.h */; };
+		8EC8AD00184FE0A100C697D6 /* hashtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC93184FE0A100C697D6 /* hashtable.cpp */; };
+		8EC8AD01184FE0A100C697D6 /* hashtable.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC94184FE0A100C697D6 /* hashtable.h */; };
+		8EC8AD02184FE0A100C697D6 /* histogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC95184FE0A100C697D6 /* histogram.cpp */; };
+		8EC8AD03184FE0A100C697D6 /* histogram.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC96184FE0A100C697D6 /* histogram.h */; };
+		8EC8AD04184FE0A100C697D6 /* IBDMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC97184FE0A100C697D6 /* IBDMatrix.cpp */; };
+		8EC8AD05184FE0A100C697D6 /* IBDMatrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC98184FE0A100C697D6 /* IBDMatrix.h */; };
+		8EC8AD06184FE0A100C697D6 /* individual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC99184FE0A100C697D6 /* individual.cpp */; };
+		8EC8AD07184FE0A100C697D6 /* individual.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC9A184FE0A100C697D6 /* individual.h */; };
+		8EC8AD08184FE0A100C697D6 /* maternalPaternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC9B184FE0A100C697D6 /* maternalPaternal.cpp */; };
+		8EC8AD09184FE0A100C697D6 /* matrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC9C184FE0A100C697D6 /* matrix.h */; };
+		8EC8AD0A184FE0A100C697D6 /* matrixwbg.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC9D184FE0A100C697D6 /* matrixwbg.h */; };
+		8EC8AD0B184FE0A100C697D6 /* MersenneTwister.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC9E184FE0A100C697D6 /* MersenneTwister.h */; };
+		8EC8AD0C184FE0A100C697D6 /* mim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8AC9F184FE0A100C697D6 /* mim.cpp */; };
+		8EC8AD0D184FE0A100C697D6 /* mim.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA0184FE0A100C697D6 /* mim.h */; };
+		8EC8AD0E184FE0A100C697D6 /* min_nr_powell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA1184FE0A100C697D6 /* min_nr_powell.cpp */; };
+		8EC8AD0F184FE0A100C697D6 /* min_praxis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA2184FE0A100C697D6 /* min_praxis.cpp */; };
+		8EC8AD10184FE0A100C697D6 /* minimizer.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA3184FE0A100C697D6 /* minimizer.h */; };
+		8EC8AD11184FE0A100C697D6 /* model_blup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA4184FE0A100C697D6 /* model_blup.cpp */; };
+		8EC8AD12184FE0A100C697D6 /* model_gibbs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA5184FE0A100C697D6 /* model_gibbs.cpp */; };
+		8EC8AD13184FE0A100C697D6 /* model_hypo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA6184FE0A100C697D6 /* model_hypo.cpp */; };
+		8EC8AD14184FE0A100C697D6 /* model_peeling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA7184FE0A100C697D6 /* model_peeling.cpp */; };
+		8EC8AD15184FE0A100C697D6 /* model_vce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA8184FE0A100C697D6 /* model_vce.cpp */; };
+		8EC8AD16184FE0A100C697D6 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACA9184FE0A100C697D6 /* model.cpp */; };
+		8EC8AD17184FE0A100C697D6 /* model.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACAA184FE0A100C697D6 /* model.h */; };
+		8EC8AD18184FE0A100C697D6 /* mqtl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACAB184FE0A100C697D6 /* mqtl.cpp */; };
+		8EC8AD19184FE0A100C697D6 /* mqtl.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACAC184FE0A100C697D6 /* mqtl.h */; };
+		8EC8AD1A184FE0A100C697D6 /* nonsymm_eigen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACAD184FE0A100C697D6 /* nonsymm_eigen.cpp */; };
+		8EC8AD1B184FE0A100C697D6 /* nufamily.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACAE184FE0A100C697D6 /* nufamily.cpp */; };
+		8EC8AD1C184FE0A100C697D6 /* nufamily.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACAF184FE0A100C697D6 /* nufamily.h */; };
+		8EC8AD1D184FE0A100C697D6 /* parmMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB0184FE0A100C697D6 /* parmMap.cpp */; };
+		8EC8AD1E184FE0A100C697D6 /* parmMap.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB1184FE0A100C697D6 /* parmMap.h */; };
+		8EC8AD1F184FE0A100C697D6 /* pedigree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB2184FE0A100C697D6 /* pedigree.cpp */; };
+		8EC8AD20184FE0A100C697D6 /* pedigree.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB3184FE0A100C697D6 /* pedigree.h */; };
+		8EC8AD21184FE0A100C697D6 /* plotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB4184FE0A100C697D6 /* plotter.cpp */; };
+		8EC8AD22184FE0A100C697D6 /* plotter.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB5184FE0A100C697D6 /* plotter.h */; };
+		8EC8AD23184FE0A100C697D6 /* pop_bayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB6184FE0A100C697D6 /* pop_bayes.cpp */; };
+		8EC8AD24184FE0A100C697D6 /* pop_gibbs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB7184FE0A100C697D6 /* pop_gibbs.cpp */; };
+		8EC8AD25184FE0A100C697D6 /* pop_graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB8184FE0A100C697D6 /* pop_graph.cpp */; };
+		8EC8AD26184FE0A100C697D6 /* pop_mblup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACB9184FE0A100C697D6 /* pop_mblup.cpp */; };
+		8EC8AD27184FE0A100C697D6 /* pop_peeling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACBA184FE0A100C697D6 /* pop_peeling.cpp */; };
+		8EC8AD28184FE0A100C697D6 /* popMIM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACBB184FE0A100C697D6 /* popMIM.cpp */; };
+		8EC8AD29184FE0A100C697D6 /* population.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACBC184FE0A100C697D6 /* population.cpp */; };
+		8EC8AD2A184FE0A100C697D6 /* population.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACBD184FE0A100C697D6 /* population.h */; };
+		8EC8AD2B184FE0A100C697D6 /* population1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACBE184FE0A100C697D6 /* population1.cpp */; };
+		8EC8AD2C184FE0A100C697D6 /* pt.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACBF184FE0A100C697D6 /* pt.h */; };
+		8EC8AD2D184FE0A100C697D6 /* regexp.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC0184FE0A100C697D6 /* regexp.h */; };
+		8EC8AD2E184FE0A100C697D6 /* rpedigree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC1184FE0A100C697D6 /* rpedigree.cpp */; };
+		8EC8AD2F184FE0A100C697D6 /* rpedigree.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC2184FE0A100C697D6 /* rpedigree.h */; };
+		8EC8AD30184FE0A100C697D6 /* rsamplerparms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC3184FE0A100C697D6 /* rsamplerparms.cpp */; };
+		8EC8AD31184FE0A100C697D6 /* rsamplerparms.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC4184FE0A100C697D6 /* rsamplerparms.h */; };
+		8EC8AD32184FE0A100C697D6 /* rutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC5184FE0A100C697D6 /* rutil.cpp */; };
+		8EC8AD33184FE0A100C697D6 /* rutil.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC6184FE0A100C697D6 /* rutil.h */; };
+		8EC8AD34184FE0A100C697D6 /* safe_vectors.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC7184FE0A100C697D6 /* safe_vectors.h */; };
+		8EC8AD35184FE0A100C697D6 /* session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC8184FE0A100C697D6 /* session.cpp */; };
+		8EC8AD36184FE0A100C697D6 /* session.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACC9184FE0A100C697D6 /* session.h */; };
+		8EC8AD37184FE0A100C697D6 /* sparsebgmatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACCA184FE0A100C697D6 /* sparsebgmatrix.cpp */; };
+		8EC8AD38184FE0A100C697D6 /* sparsebgmatrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACCB184FE0A100C697D6 /* sparsebgmatrix.h */; };
+		8EC8AD39184FE0A100C697D6 /* sparsematrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACCC184FE0A100C697D6 /* sparsematrix.cpp */; };
+		8EC8AD3A184FE0A100C697D6 /* sparsematrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACCD184FE0A100C697D6 /* sparsematrix.h */; };
+		8EC8AD3B184FE0A100C697D6 /* stat.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACCE184FE0A100C697D6 /* stat.h */; };
+		8EC8AD3C184FE0A100C697D6 /* stat1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACCF184FE0A100C697D6 /* stat1.cpp */; };
+		8EC8AD3D184FE0A100C697D6 /* stat2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD0184FE0A100C697D6 /* stat2.cpp */; };
+		8EC8AD3E184FE0A100C697D6 /* statdist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD1184FE0A100C697D6 /* statdist.cpp */; };
+		8EC8AD3F184FE0A100C697D6 /* statdist.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD2184FE0A100C697D6 /* statdist.h */; };
+		8EC8AD40184FE0A100C697D6 /* statdistbase.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD3184FE0A100C697D6 /* statdistbase.h */; };
+		8EC8AD41184FE0A100C697D6 /* symm_eigen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD4184FE0A100C697D6 /* symm_eigen.cpp */; };
+		8EC8AD42184FE0A100C697D6 /* termlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD5184FE0A100C697D6 /* termlist.cpp */; };
+		8EC8AD43184FE0A100C697D6 /* termlist.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD6184FE0A100C697D6 /* termlist.h */; };
+		8EC8AD44184FE0A100C697D6 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD7184FE0A100C697D6 /* util.cpp */; };
+		8EC8AD45184FE0A100C697D6 /* util.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD8184FE0A100C697D6 /* util.h */; };
+		8EC8AD46184FE0A100C697D6 /* vector.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8ACD9184FE0A100C697D6 /* vector.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EC8AC66184FE07A00C697D6 /* libMatvecStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMatvecStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC8AC6D184FE0A100C697D6 /* alleletrim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = alleletrim.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/alleletrim.cpp; sourceTree = "<group>"; };
+		8EC8AC6E184FE0A100C697D6 /* bg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bg.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/bg.cpp; sourceTree = "<group>"; };
+		8EC8AC6F184FE0A100C697D6 /* bg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bg.h; path = ../../Library/Matvec/matvecWithOutGSL/src/bg.h; sourceTree = "<group>"; };
+		8EC8AC70184FE0A100C697D6 /* bgmatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bgmatrix.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/bgmatrix.cpp; sourceTree = "<group>"; };
+		8EC8AC71184FE0A100C697D6 /* bgmatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bgmatrix.h; path = ../../Library/Matvec/matvecWithOutGSL/src/bgmatrix.h; sourceTree = "<group>"; };
+		8EC8AC72184FE0A100C697D6 /* BNodeList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BNodeList.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/BNodeList.cpp; sourceTree = "<group>"; };
+		8EC8AC73184FE0A100C697D6 /* BNodeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BNodeList.h; path = ../../Library/Matvec/matvecWithOutGSL/src/BNodeList.h; sourceTree = "<group>"; };
+		8EC8AC74184FE0A100C697D6 /* chromosome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = chromosome.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/chromosome.cpp; sourceTree = "<group>"; };
+		8EC8AC75184FE0A100C697D6 /* chromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chromosome.h; path = ../../Library/Matvec/matvecWithOutGSL/src/chromosome.h; sourceTree = "<group>"; };
+		8EC8AC76184FE0A100C697D6 /* data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = data.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/data.cpp; sourceTree = "<group>"; };
+		8EC8AC77184FE0A100C697D6 /* data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = data.h; path = ../../Library/Matvec/matvecWithOutGSL/src/data.h; sourceTree = "<group>"; };
+		8EC8AC78184FE0A100C697D6 /* datanode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = datanode.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/datanode.cpp; sourceTree = "<group>"; };
+		8EC8AC79184FE0A100C697D6 /* datanode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = datanode.h; path = ../../Library/Matvec/matvecWithOutGSL/src/datanode.h; sourceTree = "<group>"; };
+		8EC8AC7A184FE0A100C697D6 /* dblock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dblock.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/dblock.cpp; sourceTree = "<group>"; };
+		8EC8AC7B184FE0A100C697D6 /* dblock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dblock.h; path = ../../Library/Matvec/matvecWithOutGSL/src/dblock.h; sourceTree = "<group>"; };
+		8EC8AC7C184FE0A100C697D6 /* disequilHMM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = disequilHMM.h; path = ../../Library/Matvec/matvecWithOutGSL/src/disequilHMM.h; sourceTree = "<group>"; };
+		8EC8AC7D184FE0A100C697D6 /* doublematrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = doublematrix.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/doublematrix.cpp; sourceTree = "<group>"; };
+		8EC8AC7E184FE0A100C697D6 /* doublematrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = doublematrix.h; path = ../../Library/Matvec/matvecWithOutGSL/src/doublematrix.h; sourceTree = "<group>"; };
+		8EC8AC7F184FE0A100C697D6 /* exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = exception.h; path = ../../Library/Matvec/matvecWithOutGSL/src/exception.h; sourceTree = "<group>"; };
+		8EC8AC80184FE0A100C697D6 /* field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = field.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/field.cpp; sourceTree = "<group>"; };
+		8EC8AC81184FE0A100C697D6 /* field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = field.h; path = ../../Library/Matvec/matvecWithOutGSL/src/field.h; sourceTree = "<group>"; };
+		8EC8AC82184FE0A100C697D6 /* fieldstruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fieldstruct.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/fieldstruct.cpp; sourceTree = "<group>"; };
+		8EC8AC83184FE0A100C697D6 /* fieldstruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fieldstruct.h; path = ../../Library/Matvec/matvecWithOutGSL/src/fieldstruct.h; sourceTree = "<group>"; };
+		8EC8AC84184FE0A100C697D6 /* fpmm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fpmm.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/fpmm.cpp; sourceTree = "<group>"; };
+		8EC8AC85184FE0A100C697D6 /* fpmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpmm.h; path = ../../Library/Matvec/matvecWithOutGSL/src/fpmm.h; sourceTree = "<group>"; };
+		8EC8AC86184FE0A100C697D6 /* geneticdist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = geneticdist.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/geneticdist.cpp; sourceTree = "<group>"; };
+		8EC8AC87184FE0A100C697D6 /* geneticdist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = geneticdist.h; path = ../../Library/Matvec/matvecWithOutGSL/src/geneticdist.h; sourceTree = "<group>"; };
+		8EC8AC88184FE0A100C697D6 /* genome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = genome.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/genome.cpp; sourceTree = "<group>"; };
+		8EC8AC89184FE0A100C697D6 /* genome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = genome.h; path = ../../Library/Matvec/matvecWithOutGSL/src/genome.h; sourceTree = "<group>"; };
+		8EC8AC8A184FE0A100C697D6 /* ginverse1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ginverse1.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/ginverse1.cpp; sourceTree = "<group>"; };
+		8EC8AC8B184FE0A100C697D6 /* glmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glmm.h; path = ../../Library/Matvec/matvecWithOutGSL/src/glmm.h; sourceTree = "<group>"; };
+		8EC8AC8C184FE0A100C697D6 /* glmm1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = glmm1.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/glmm1.cpp; sourceTree = "<group>"; };
+		8EC8AC8D184FE0A100C697D6 /* glmm2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = glmm2.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/glmm2.cpp; sourceTree = "<group>"; };
+		8EC8AC8E184FE0A100C697D6 /* gnodederived.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gnodederived.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/gnodederived.cpp; sourceTree = "<group>"; };
+		8EC8AC8F184FE0A100C697D6 /* gnodederived.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gnodederived.h; path = ../../Library/Matvec/matvecWithOutGSL/src/gnodederived.h; sourceTree = "<group>"; };
+		8EC8AC90184FE0A100C697D6 /* gnodesetderived.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gnodesetderived.h; path = ../../Library/Matvec/matvecWithOutGSL/src/gnodesetderived.h; sourceTree = "<group>"; };
+		8EC8AC91184FE0A100C697D6 /* gnodestuff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gnodestuff.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/gnodestuff.cpp; sourceTree = "<group>"; };
+		8EC8AC92184FE0A100C697D6 /* gnodestuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gnodestuff.h; path = ../../Library/Matvec/matvecWithOutGSL/src/gnodestuff.h; sourceTree = "<group>"; };
+		8EC8AC93184FE0A100C697D6 /* hashtable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = hashtable.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/hashtable.cpp; sourceTree = "<group>"; };
+		8EC8AC94184FE0A100C697D6 /* hashtable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hashtable.h; path = ../../Library/Matvec/matvecWithOutGSL/src/hashtable.h; sourceTree = "<group>"; };
+		8EC8AC95184FE0A100C697D6 /* histogram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = histogram.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/histogram.cpp; sourceTree = "<group>"; };
+		8EC8AC96184FE0A100C697D6 /* histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = histogram.h; path = ../../Library/Matvec/matvecWithOutGSL/src/histogram.h; sourceTree = "<group>"; };
+		8EC8AC97184FE0A100C697D6 /* IBDMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = IBDMatrix.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/IBDMatrix.cpp; sourceTree = "<group>"; };
+		8EC8AC98184FE0A100C697D6 /* IBDMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IBDMatrix.h; path = ../../Library/Matvec/matvecWithOutGSL/src/IBDMatrix.h; sourceTree = "<group>"; };
+		8EC8AC99184FE0A100C697D6 /* individual.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = individual.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/individual.cpp; sourceTree = "<group>"; };
+		8EC8AC9A184FE0A100C697D6 /* individual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = individual.h; path = ../../Library/Matvec/matvecWithOutGSL/src/individual.h; sourceTree = "<group>"; };
+		8EC8AC9B184FE0A100C697D6 /* maternalPaternal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = maternalPaternal.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/maternalPaternal.cpp; sourceTree = "<group>"; };
+		8EC8AC9C184FE0A100C697D6 /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = ../../Library/Matvec/matvecWithOutGSL/src/matrix.h; sourceTree = "<group>"; };
+		8EC8AC9D184FE0A100C697D6 /* matrixwbg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matrixwbg.h; path = ../../Library/Matvec/matvecWithOutGSL/src/matrixwbg.h; sourceTree = "<group>"; };
+		8EC8AC9E184FE0A100C697D6 /* MersenneTwister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MersenneTwister.h; path = ../../Library/Matvec/matvecWithOutGSL/src/MersenneTwister.h; sourceTree = "<group>"; };
+		8EC8AC9F184FE0A100C697D6 /* mim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mim.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/mim.cpp; sourceTree = "<group>"; };
+		8EC8ACA0184FE0A100C697D6 /* mim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mim.h; path = ../../Library/Matvec/matvecWithOutGSL/src/mim.h; sourceTree = "<group>"; };
+		8EC8ACA1184FE0A100C697D6 /* min_nr_powell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = min_nr_powell.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/min_nr_powell.cpp; sourceTree = "<group>"; };
+		8EC8ACA2184FE0A100C697D6 /* min_praxis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = min_praxis.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/min_praxis.cpp; sourceTree = "<group>"; };
+		8EC8ACA3184FE0A100C697D6 /* minimizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = minimizer.h; path = ../../Library/Matvec/matvecWithOutGSL/src/minimizer.h; sourceTree = "<group>"; };
+		8EC8ACA4184FE0A100C697D6 /* model_blup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model_blup.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/model_blup.cpp; sourceTree = "<group>"; };
+		8EC8ACA5184FE0A100C697D6 /* model_gibbs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model_gibbs.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/model_gibbs.cpp; sourceTree = "<group>"; };
+		8EC8ACA6184FE0A100C697D6 /* model_hypo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model_hypo.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/model_hypo.cpp; sourceTree = "<group>"; };
+		8EC8ACA7184FE0A100C697D6 /* model_peeling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model_peeling.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/model_peeling.cpp; sourceTree = "<group>"; };
+		8EC8ACA8184FE0A100C697D6 /* model_vce.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model_vce.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/model_vce.cpp; sourceTree = "<group>"; };
+		8EC8ACA9184FE0A100C697D6 /* model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = model.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/model.cpp; sourceTree = "<group>"; };
+		8EC8ACAA184FE0A100C697D6 /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = model.h; path = ../../Library/Matvec/matvecWithOutGSL/src/model.h; sourceTree = "<group>"; };
+		8EC8ACAB184FE0A100C697D6 /* mqtl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mqtl.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/mqtl.cpp; sourceTree = "<group>"; };
+		8EC8ACAC184FE0A100C697D6 /* mqtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mqtl.h; path = ../../Library/Matvec/matvecWithOutGSL/src/mqtl.h; sourceTree = "<group>"; };
+		8EC8ACAD184FE0A100C697D6 /* nonsymm_eigen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nonsymm_eigen.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/nonsymm_eigen.cpp; sourceTree = "<group>"; };
+		8EC8ACAE184FE0A100C697D6 /* nufamily.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nufamily.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/nufamily.cpp; sourceTree = "<group>"; };
+		8EC8ACAF184FE0A100C697D6 /* nufamily.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nufamily.h; path = ../../Library/Matvec/matvecWithOutGSL/src/nufamily.h; sourceTree = "<group>"; };
+		8EC8ACB0184FE0A100C697D6 /* parmMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = parmMap.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/parmMap.cpp; sourceTree = "<group>"; };
+		8EC8ACB1184FE0A100C697D6 /* parmMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parmMap.h; path = ../../Library/Matvec/matvecWithOutGSL/src/parmMap.h; sourceTree = "<group>"; };
+		8EC8ACB2184FE0A100C697D6 /* pedigree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pedigree.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/pedigree.cpp; sourceTree = "<group>"; };
+		8EC8ACB3184FE0A100C697D6 /* pedigree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pedigree.h; path = ../../Library/Matvec/matvecWithOutGSL/src/pedigree.h; sourceTree = "<group>"; };
+		8EC8ACB4184FE0A100C697D6 /* plotter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = plotter.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/plotter.cpp; sourceTree = "<group>"; };
+		8EC8ACB5184FE0A100C697D6 /* plotter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = plotter.h; path = ../../Library/Matvec/matvecWithOutGSL/src/plotter.h; sourceTree = "<group>"; };
+		8EC8ACB6184FE0A100C697D6 /* pop_bayes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pop_bayes.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/pop_bayes.cpp; sourceTree = "<group>"; };
+		8EC8ACB7184FE0A100C697D6 /* pop_gibbs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pop_gibbs.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/pop_gibbs.cpp; sourceTree = "<group>"; };
+		8EC8ACB8184FE0A100C697D6 /* pop_graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pop_graph.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/pop_graph.cpp; sourceTree = "<group>"; };
+		8EC8ACB9184FE0A100C697D6 /* pop_mblup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pop_mblup.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/pop_mblup.cpp; sourceTree = "<group>"; };
+		8EC8ACBA184FE0A100C697D6 /* pop_peeling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pop_peeling.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/pop_peeling.cpp; sourceTree = "<group>"; };
+		8EC8ACBB184FE0A100C697D6 /* popMIM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = popMIM.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/popMIM.cpp; sourceTree = "<group>"; };
+		8EC8ACBC184FE0A100C697D6 /* population.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = population.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/population.cpp; sourceTree = "<group>"; };
+		8EC8ACBD184FE0A100C697D6 /* population.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = population.h; path = ../../Library/Matvec/matvecWithOutGSL/src/population.h; sourceTree = "<group>"; };
+		8EC8ACBE184FE0A100C697D6 /* population1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = population1.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/population1.cpp; sourceTree = "<group>"; };
+		8EC8ACBF184FE0A100C697D6 /* pt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pt.h; path = ../../Library/Matvec/matvecWithOutGSL/src/pt.h; sourceTree = "<group>"; };
+		8EC8ACC0184FE0A100C697D6 /* regexp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = regexp.h; path = ../../Library/Matvec/matvecWithOutGSL/src/regexp.h; sourceTree = "<group>"; };
+		8EC8ACC1184FE0A100C697D6 /* rpedigree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rpedigree.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/rpedigree.cpp; sourceTree = "<group>"; };
+		8EC8ACC2184FE0A100C697D6 /* rpedigree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rpedigree.h; path = ../../Library/Matvec/matvecWithOutGSL/src/rpedigree.h; sourceTree = "<group>"; };
+		8EC8ACC3184FE0A100C697D6 /* rsamplerparms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rsamplerparms.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/rsamplerparms.cpp; sourceTree = "<group>"; };
+		8EC8ACC4184FE0A100C697D6 /* rsamplerparms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rsamplerparms.h; path = ../../Library/Matvec/matvecWithOutGSL/src/rsamplerparms.h; sourceTree = "<group>"; };
+		8EC8ACC5184FE0A100C697D6 /* rutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rutil.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/rutil.cpp; sourceTree = "<group>"; };
+		8EC8ACC6184FE0A100C697D6 /* rutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rutil.h; path = ../../Library/Matvec/matvecWithOutGSL/src/rutil.h; sourceTree = "<group>"; };
+		8EC8ACC7184FE0A100C697D6 /* safe_vectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = safe_vectors.h; path = ../../Library/Matvec/matvecWithOutGSL/src/safe_vectors.h; sourceTree = "<group>"; };
+		8EC8ACC8184FE0A100C697D6 /* session.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = session.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/session.cpp; sourceTree = "<group>"; };
+		8EC8ACC9184FE0A100C697D6 /* session.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = session.h; path = ../../Library/Matvec/matvecWithOutGSL/src/session.h; sourceTree = "<group>"; };
+		8EC8ACCA184FE0A100C697D6 /* sparsebgmatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sparsebgmatrix.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/sparsebgmatrix.cpp; sourceTree = "<group>"; };
+		8EC8ACCB184FE0A100C697D6 /* sparsebgmatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sparsebgmatrix.h; path = ../../Library/Matvec/matvecWithOutGSL/src/sparsebgmatrix.h; sourceTree = "<group>"; };
+		8EC8ACCC184FE0A100C697D6 /* sparsematrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sparsematrix.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/sparsematrix.cpp; sourceTree = "<group>"; };
+		8EC8ACCD184FE0A100C697D6 /* sparsematrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sparsematrix.h; path = ../../Library/Matvec/matvecWithOutGSL/src/sparsematrix.h; sourceTree = "<group>"; };
+		8EC8ACCE184FE0A100C697D6 /* stat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stat.h; path = ../../Library/Matvec/matvecWithOutGSL/src/stat.h; sourceTree = "<group>"; };
+		8EC8ACCF184FE0A100C697D6 /* stat1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stat1.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/stat1.cpp; sourceTree = "<group>"; };
+		8EC8ACD0184FE0A100C697D6 /* stat2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stat2.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/stat2.cpp; sourceTree = "<group>"; };
+		8EC8ACD1184FE0A100C697D6 /* statdist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = statdist.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/statdist.cpp; sourceTree = "<group>"; };
+		8EC8ACD2184FE0A100C697D6 /* statdist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = statdist.h; path = ../../Library/Matvec/matvecWithOutGSL/src/statdist.h; sourceTree = "<group>"; };
+		8EC8ACD3184FE0A100C697D6 /* statdistbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = statdistbase.h; path = ../../Library/Matvec/matvecWithOutGSL/src/statdistbase.h; sourceTree = "<group>"; };
+		8EC8ACD4184FE0A100C697D6 /* symm_eigen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = symm_eigen.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/symm_eigen.cpp; sourceTree = "<group>"; };
+		8EC8ACD5184FE0A100C697D6 /* termlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = termlist.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/termlist.cpp; sourceTree = "<group>"; };
+		8EC8ACD6184FE0A100C697D6 /* termlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = termlist.h; path = ../../Library/Matvec/matvecWithOutGSL/src/termlist.h; sourceTree = "<group>"; };
+		8EC8ACD7184FE0A100C697D6 /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = ../../Library/Matvec/matvecWithOutGSL/src/util.cpp; sourceTree = "<group>"; };
+		8EC8ACD8184FE0A100C697D6 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = util.h; path = ../../Library/Matvec/matvecWithOutGSL/src/util.h; sourceTree = "<group>"; };
+		8EC8ACD9184FE0A100C697D6 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector.h; path = ../../Library/Matvec/matvecWithOutGSL/src/vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC8AC63184FE07A00C697D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC8AC5D184FE07A00C697D6 = {
+			isa = PBXGroup;
+			children = (
+				8EC8AC6D184FE0A100C697D6 /* alleletrim.cpp */,
+				8EC8AC6E184FE0A100C697D6 /* bg.cpp */,
+				8EC8AC6F184FE0A100C697D6 /* bg.h */,
+				8EC8AC70184FE0A100C697D6 /* bgmatrix.cpp */,
+				8EC8AC71184FE0A100C697D6 /* bgmatrix.h */,
+				8EC8AC72184FE0A100C697D6 /* BNodeList.cpp */,
+				8EC8AC73184FE0A100C697D6 /* BNodeList.h */,
+				8EC8AC74184FE0A100C697D6 /* chromosome.cpp */,
+				8EC8AC75184FE0A100C697D6 /* chromosome.h */,
+				8EC8AC76184FE0A100C697D6 /* data.cpp */,
+				8EC8AC77184FE0A100C697D6 /* data.h */,
+				8EC8AC78184FE0A100C697D6 /* datanode.cpp */,
+				8EC8AC79184FE0A100C697D6 /* datanode.h */,
+				8EC8AC7A184FE0A100C697D6 /* dblock.cpp */,
+				8EC8AC7B184FE0A100C697D6 /* dblock.h */,
+				8EC8AC7C184FE0A100C697D6 /* disequilHMM.h */,
+				8EC8AC7D184FE0A100C697D6 /* doublematrix.cpp */,
+				8EC8AC7E184FE0A100C697D6 /* doublematrix.h */,
+				8EC8AC7F184FE0A100C697D6 /* exception.h */,
+				8EC8AC80184FE0A100C697D6 /* field.cpp */,
+				8EC8AC81184FE0A100C697D6 /* field.h */,
+				8EC8AC82184FE0A100C697D6 /* fieldstruct.cpp */,
+				8EC8AC83184FE0A100C697D6 /* fieldstruct.h */,
+				8EC8AC84184FE0A100C697D6 /* fpmm.cpp */,
+				8EC8AC85184FE0A100C697D6 /* fpmm.h */,
+				8EC8AC86184FE0A100C697D6 /* geneticdist.cpp */,
+				8EC8AC87184FE0A100C697D6 /* geneticdist.h */,
+				8EC8AC88184FE0A100C697D6 /* genome.cpp */,
+				8EC8AC89184FE0A100C697D6 /* genome.h */,
+				8EC8AC8A184FE0A100C697D6 /* ginverse1.cpp */,
+				8EC8AC8B184FE0A100C697D6 /* glmm.h */,
+				8EC8AC8C184FE0A100C697D6 /* glmm1.cpp */,
+				8EC8AC8D184FE0A100C697D6 /* glmm2.cpp */,
+				8EC8AC8E184FE0A100C697D6 /* gnodederived.cpp */,
+				8EC8AC8F184FE0A100C697D6 /* gnodederived.h */,
+				8EC8AC90184FE0A100C697D6 /* gnodesetderived.h */,
+				8EC8AC91184FE0A100C697D6 /* gnodestuff.cpp */,
+				8EC8AC92184FE0A100C697D6 /* gnodestuff.h */,
+				8EC8AC93184FE0A100C697D6 /* hashtable.cpp */,
+				8EC8AC94184FE0A100C697D6 /* hashtable.h */,
+				8EC8AC95184FE0A100C697D6 /* histogram.cpp */,
+				8EC8AC96184FE0A100C697D6 /* histogram.h */,
+				8EC8AC97184FE0A100C697D6 /* IBDMatrix.cpp */,
+				8EC8AC98184FE0A100C697D6 /* IBDMatrix.h */,
+				8EC8AC99184FE0A100C697D6 /* individual.cpp */,
+				8EC8AC9A184FE0A100C697D6 /* individual.h */,
+				8EC8AC9B184FE0A100C697D6 /* maternalPaternal.cpp */,
+				8EC8AC9C184FE0A100C697D6 /* matrix.h */,
+				8EC8AC9D184FE0A100C697D6 /* matrixwbg.h */,
+				8EC8AC9E184FE0A100C697D6 /* MersenneTwister.h */,
+				8EC8AC9F184FE0A100C697D6 /* mim.cpp */,
+				8EC8ACA0184FE0A100C697D6 /* mim.h */,
+				8EC8ACA1184FE0A100C697D6 /* min_nr_powell.cpp */,
+				8EC8ACA2184FE0A100C697D6 /* min_praxis.cpp */,
+				8EC8ACA3184FE0A100C697D6 /* minimizer.h */,
+				8EC8ACA4184FE0A100C697D6 /* model_blup.cpp */,
+				8EC8ACA5184FE0A100C697D6 /* model_gibbs.cpp */,
+				8EC8ACA6184FE0A100C697D6 /* model_hypo.cpp */,
+				8EC8ACA7184FE0A100C697D6 /* model_peeling.cpp */,
+				8EC8ACA8184FE0A100C697D6 /* model_vce.cpp */,
+				8EC8ACA9184FE0A100C697D6 /* model.cpp */,
+				8EC8ACAA184FE0A100C697D6 /* model.h */,
+				8EC8ACAB184FE0A100C697D6 /* mqtl.cpp */,
+				8EC8ACAC184FE0A100C697D6 /* mqtl.h */,
+				8EC8ACAD184FE0A100C697D6 /* nonsymm_eigen.cpp */,
+				8EC8ACAE184FE0A100C697D6 /* nufamily.cpp */,
+				8EC8ACAF184FE0A100C697D6 /* nufamily.h */,
+				8EC8ACB0184FE0A100C697D6 /* parmMap.cpp */,
+				8EC8ACB1184FE0A100C697D6 /* parmMap.h */,
+				8EC8ACB2184FE0A100C697D6 /* pedigree.cpp */,
+				8EC8ACB3184FE0A100C697D6 /* pedigree.h */,
+				8EC8ACB4184FE0A100C697D6 /* plotter.cpp */,
+				8EC8ACB5184FE0A100C697D6 /* plotter.h */,
+				8EC8ACB6184FE0A100C697D6 /* pop_bayes.cpp */,
+				8EC8ACB7184FE0A100C697D6 /* pop_gibbs.cpp */,
+				8EC8ACB8184FE0A100C697D6 /* pop_graph.cpp */,
+				8EC8ACB9184FE0A100C697D6 /* pop_mblup.cpp */,
+				8EC8ACBA184FE0A100C697D6 /* pop_peeling.cpp */,
+				8EC8ACBB184FE0A100C697D6 /* popMIM.cpp */,
+				8EC8ACBC184FE0A100C697D6 /* population.cpp */,
+				8EC8ACBD184FE0A100C697D6 /* population.h */,
+				8EC8ACBE184FE0A100C697D6 /* population1.cpp */,
+				8EC8ACBF184FE0A100C697D6 /* pt.h */,
+				8EC8ACC0184FE0A100C697D6 /* regexp.h */,
+				8EC8ACC1184FE0A100C697D6 /* rpedigree.cpp */,
+				8EC8ACC2184FE0A100C697D6 /* rpedigree.h */,
+				8EC8ACC3184FE0A100C697D6 /* rsamplerparms.cpp */,
+				8EC8ACC4184FE0A100C697D6 /* rsamplerparms.h */,
+				8EC8ACC5184FE0A100C697D6 /* rutil.cpp */,
+				8EC8ACC6184FE0A100C697D6 /* rutil.h */,
+				8EC8ACC7184FE0A100C697D6 /* safe_vectors.h */,
+				8EC8ACC8184FE0A100C697D6 /* session.cpp */,
+				8EC8ACC9184FE0A100C697D6 /* session.h */,
+				8EC8ACCA184FE0A100C697D6 /* sparsebgmatrix.cpp */,
+				8EC8ACCB184FE0A100C697D6 /* sparsebgmatrix.h */,
+				8EC8ACCC184FE0A100C697D6 /* sparsematrix.cpp */,
+				8EC8ACCD184FE0A100C697D6 /* sparsematrix.h */,
+				8EC8ACCE184FE0A100C697D6 /* stat.h */,
+				8EC8ACCF184FE0A100C697D6 /* stat1.cpp */,
+				8EC8ACD0184FE0A100C697D6 /* stat2.cpp */,
+				8EC8ACD1184FE0A100C697D6 /* statdist.cpp */,
+				8EC8ACD2184FE0A100C697D6 /* statdist.h */,
+				8EC8ACD3184FE0A100C697D6 /* statdistbase.h */,
+				8EC8ACD4184FE0A100C697D6 /* symm_eigen.cpp */,
+				8EC8ACD5184FE0A100C697D6 /* termlist.cpp */,
+				8EC8ACD6184FE0A100C697D6 /* termlist.h */,
+				8EC8ACD7184FE0A100C697D6 /* util.cpp */,
+				8EC8ACD8184FE0A100C697D6 /* util.h */,
+				8EC8ACD9184FE0A100C697D6 /* vector.h */,
+				8EC8AC67184FE07A00C697D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC8AC67184FE07A00C697D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8AC66184FE07A00C697D6 /* libMatvecStaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8EC8AC64184FE07A00C697D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8EC8AC65184FE07A00C697D6 /* MatvecStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC8AC6A184FE07A00C697D6 /* Build configuration list for PBXNativeTarget "MatvecStaticLib" */;
+			buildPhases = (
+				8EC8AC62184FE07A00C697D6 /* Sources */,
+				8EC8AC63184FE07A00C697D6 /* Frameworks */,
+				8EC8AC64184FE07A00C697D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatvecStaticLib;
+			productName = MatvecStaticLib;
+			productReference = 8EC8AC66184FE07A00C697D6 /* libMatvecStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC8AC5E184FE07A00C697D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "JIAN ZENG";
+			};
+			buildConfigurationList = 8EC8AC61184FE07A00C697D6 /* Build configuration list for PBXProject "MatvecStaticLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EC8AC5D184FE07A00C697D6;
+			productRefGroup = 8EC8AC67184FE07A00C697D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC8AC65184FE07A00C697D6 /* MatvecStaticLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC8AC62184FE07A00C697D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC8ACDA184FE0A100C697D6 /* alleletrim.cpp in Sources */,
+				8EC8ACDB184FE0A100C697D6 /* bg.cpp in Sources */,
+				8EC8ACDC184FE0A100C697D6 /* bg.h in Sources */,
+				8EC8ACDD184FE0A100C697D6 /* bgmatrix.cpp in Sources */,
+				8EC8ACDE184FE0A100C697D6 /* bgmatrix.h in Sources */,
+				8EC8ACDF184FE0A100C697D6 /* BNodeList.cpp in Sources */,
+				8EC8ACE0184FE0A100C697D6 /* BNodeList.h in Sources */,
+				8EC8ACE1184FE0A100C697D6 /* chromosome.cpp in Sources */,
+				8EC8ACE2184FE0A100C697D6 /* chromosome.h in Sources */,
+				8EC8ACE3184FE0A100C697D6 /* data.cpp in Sources */,
+				8EC8ACE4184FE0A100C697D6 /* data.h in Sources */,
+				8EC8ACE5184FE0A100C697D6 /* datanode.cpp in Sources */,
+				8EC8ACE6184FE0A100C697D6 /* datanode.h in Sources */,
+				8EC8ACE7184FE0A100C697D6 /* dblock.cpp in Sources */,
+				8EC8ACE8184FE0A100C697D6 /* dblock.h in Sources */,
+				8EC8ACE9184FE0A100C697D6 /* disequilHMM.h in Sources */,
+				8EC8ACEA184FE0A100C697D6 /* doublematrix.cpp in Sources */,
+				8EC8ACEB184FE0A100C697D6 /* doublematrix.h in Sources */,
+				8EC8ACEC184FE0A100C697D6 /* exception.h in Sources */,
+				8EC8ACED184FE0A100C697D6 /* field.cpp in Sources */,
+				8EC8ACEE184FE0A100C697D6 /* field.h in Sources */,
+				8EC8ACEF184FE0A100C697D6 /* fieldstruct.cpp in Sources */,
+				8EC8ACF0184FE0A100C697D6 /* fieldstruct.h in Sources */,
+				8EC8ACF1184FE0A100C697D6 /* fpmm.cpp in Sources */,
+				8EC8ACF2184FE0A100C697D6 /* fpmm.h in Sources */,
+				8EC8ACF3184FE0A100C697D6 /* geneticdist.cpp in Sources */,
+				8EC8ACF4184FE0A100C697D6 /* geneticdist.h in Sources */,
+				8EC8ACF5184FE0A100C697D6 /* genome.cpp in Sources */,
+				8EC8ACF6184FE0A100C697D6 /* genome.h in Sources */,
+				8EC8ACF7184FE0A100C697D6 /* ginverse1.cpp in Sources */,
+				8EC8ACF8184FE0A100C697D6 /* glmm.h in Sources */,
+				8EC8ACF9184FE0A100C697D6 /* glmm1.cpp in Sources */,
+				8EC8ACFA184FE0A100C697D6 /* glmm2.cpp in Sources */,
+				8EC8ACFB184FE0A100C697D6 /* gnodederived.cpp in Sources */,
+				8EC8ACFC184FE0A100C697D6 /* gnodederived.h in Sources */,
+				8EC8ACFD184FE0A100C697D6 /* gnodesetderived.h in Sources */,
+				8EC8ACFE184FE0A100C697D6 /* gnodestuff.cpp in Sources */,
+				8EC8ACFF184FE0A100C697D6 /* gnodestuff.h in Sources */,
+				8EC8AD00184FE0A100C697D6 /* hashtable.cpp in Sources */,
+				8EC8AD01184FE0A100C697D6 /* hashtable.h in Sources */,
+				8EC8AD02184FE0A100C697D6 /* histogram.cpp in Sources */,
+				8EC8AD03184FE0A100C697D6 /* histogram.h in Sources */,
+				8EC8AD04184FE0A100C697D6 /* IBDMatrix.cpp in Sources */,
+				8EC8AD05184FE0A100C697D6 /* IBDMatrix.h in Sources */,
+				8EC8AD06184FE0A100C697D6 /* individual.cpp in Sources */,
+				8EC8AD07184FE0A100C697D6 /* individual.h in Sources */,
+				8EC8AD08184FE0A100C697D6 /* maternalPaternal.cpp in Sources */,
+				8EC8AD09184FE0A100C697D6 /* matrix.h in Sources */,
+				8EC8AD0A184FE0A100C697D6 /* matrixwbg.h in Sources */,
+				8EC8AD0B184FE0A100C697D6 /* MersenneTwister.h in Sources */,
+				8EC8AD0C184FE0A100C697D6 /* mim.cpp in Sources */,
+				8EC8AD0D184FE0A100C697D6 /* mim.h in Sources */,
+				8EC8AD0E184FE0A100C697D6 /* min_nr_powell.cpp in Sources */,
+				8EC8AD0F184FE0A100C697D6 /* min_praxis.cpp in Sources */,
+				8EC8AD10184FE0A100C697D6 /* minimizer.h in Sources */,
+				8EC8AD11184FE0A100C697D6 /* model_blup.cpp in Sources */,
+				8EC8AD12184FE0A100C697D6 /* model_gibbs.cpp in Sources */,
+				8EC8AD13184FE0A100C697D6 /* model_hypo.cpp in Sources */,
+				8EC8AD14184FE0A100C697D6 /* model_peeling.cpp in Sources */,
+				8EC8AD15184FE0A100C697D6 /* model_vce.cpp in Sources */,
+				8EC8AD16184FE0A100C697D6 /* model.cpp in Sources */,
+				8EC8AD17184FE0A100C697D6 /* model.h in Sources */,
+				8EC8AD18184FE0A100C697D6 /* mqtl.cpp in Sources */,
+				8EC8AD19184FE0A100C697D6 /* mqtl.h in Sources */,
+				8EC8AD1A184FE0A100C697D6 /* nonsymm_eigen.cpp in Sources */,
+				8EC8AD1B184FE0A100C697D6 /* nufamily.cpp in Sources */,
+				8EC8AD1C184FE0A100C697D6 /* nufamily.h in Sources */,
+				8EC8AD1D184FE0A100C697D6 /* parmMap.cpp in Sources */,
+				8EC8AD1E184FE0A100C697D6 /* parmMap.h in Sources */,
+				8EC8AD1F184FE0A100C697D6 /* pedigree.cpp in Sources */,
+				8EC8AD20184FE0A100C697D6 /* pedigree.h in Sources */,
+				8EC8AD21184FE0A100C697D6 /* plotter.cpp in Sources */,
+				8EC8AD22184FE0A100C697D6 /* plotter.h in Sources */,
+				8EC8AD23184FE0A100C697D6 /* pop_bayes.cpp in Sources */,
+				8EC8AD24184FE0A100C697D6 /* pop_gibbs.cpp in Sources */,
+				8EC8AD25184FE0A100C697D6 /* pop_graph.cpp in Sources */,
+				8EC8AD26184FE0A100C697D6 /* pop_mblup.cpp in Sources */,
+				8EC8AD27184FE0A100C697D6 /* pop_peeling.cpp in Sources */,
+				8EC8AD28184FE0A100C697D6 /* popMIM.cpp in Sources */,
+				8EC8AD29184FE0A100C697D6 /* population.cpp in Sources */,
+				8EC8AD2A184FE0A100C697D6 /* population.h in Sources */,
+				8EC8AD2B184FE0A100C697D6 /* population1.cpp in Sources */,
+				8EC8AD2C184FE0A100C697D6 /* pt.h in Sources */,
+				8EC8AD2D184FE0A100C697D6 /* regexp.h in Sources */,
+				8EC8AD2E184FE0A100C697D6 /* rpedigree.cpp in Sources */,
+				8EC8AD2F184FE0A100C697D6 /* rpedigree.h in Sources */,
+				8EC8AD30184FE0A100C697D6 /* rsamplerparms.cpp in Sources */,
+				8EC8AD31184FE0A100C697D6 /* rsamplerparms.h in Sources */,
+				8EC8AD32184FE0A100C697D6 /* rutil.cpp in Sources */,
+				8EC8AD33184FE0A100C697D6 /* rutil.h in Sources */,
+				8EC8AD34184FE0A100C697D6 /* safe_vectors.h in Sources */,
+				8EC8AD35184FE0A100C697D6 /* session.cpp in Sources */,
+				8EC8AD36184FE0A100C697D6 /* session.h in Sources */,
+				8EC8AD37184FE0A100C697D6 /* sparsebgmatrix.cpp in Sources */,
+				8EC8AD38184FE0A100C697D6 /* sparsebgmatrix.h in Sources */,
+				8EC8AD39184FE0A100C697D6 /* sparsematrix.cpp in Sources */,
+				8EC8AD3A184FE0A100C697D6 /* sparsematrix.h in Sources */,
+				8EC8AD3B184FE0A100C697D6 /* stat.h in Sources */,
+				8EC8AD3C184FE0A100C697D6 /* stat1.cpp in Sources */,
+				8EC8AD3D184FE0A100C697D6 /* stat2.cpp in Sources */,
+				8EC8AD3E184FE0A100C697D6 /* statdist.cpp in Sources */,
+				8EC8AD3F184FE0A100C697D6 /* statdist.h in Sources */,
+				8EC8AD40184FE0A100C697D6 /* statdistbase.h in Sources */,
+				8EC8AD41184FE0A100C697D6 /* symm_eigen.cpp in Sources */,
+				8EC8AD42184FE0A100C697D6 /* termlist.cpp in Sources */,
+				8EC8AD43184FE0A100C697D6 /* termlist.h in Sources */,
+				8EC8AD44184FE0A100C697D6 /* util.cpp in Sources */,
+				8EC8AD45184FE0A100C697D6 /* util.h in Sources */,
+				8EC8AD46184FE0A100C697D6 /* vector.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8EC8AC68184FE07A00C697D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8EC8AC69184FE07A00C697D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8EC8AC6B184FE07A00C697D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EC8AC6C184FE07A00C697D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC8AC61184FE07A00C697D6 /* Build configuration list for PBXProject "MatvecStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC8AC68184FE07A00C697D6 /* Debug */,
+				8EC8AC69184FE07A00C697D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC8AC6A184FE07A00C697D6 /* Build configuration list for PBXNativeTarget "MatvecStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC8AC6B184FE07A00C697D6 /* Debug */,
+				8EC8AC6C184FE07A00C697D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC8AC5E184FE07A00C697D6 /* Project object */;
+}
